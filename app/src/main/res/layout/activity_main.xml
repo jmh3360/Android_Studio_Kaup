@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비만도 측정"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름"
+        />
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="키 cm"
+        />
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="몸무게 kg"/>
+    <Button
+        android:id="@+id/result_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산하기"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="결과 : "
+        android:textColor="#000000"
+        android:textSize="40dp"
+        />
+
+</LinearLayout>
